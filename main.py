@@ -31,7 +31,6 @@ for i in range(len(algos)):
     
     encryption_time = algo_functions[i](algo_bits[i], content_bytes)
     
-    print(encryption_time)
     encryption_timings.append(encryption_time)
     print(encryption_timings[i])
     
